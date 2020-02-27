@@ -1,0 +1,104 @@
+/*____________________
+________border of page_________
+_____________*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.navbar {
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.navbar li {
+  font-size: 50px;
+}
+.navbar a {
+  text-decoration-line: none;
+}
+.a:link,
+a:visited {
+  color: cyan;
+  text-decoration: none;
+}
+/* navbar end */
+.main_container {
+  background-color: black;
+  display: inline-block;
+}
+.top_Container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://media1.giphy.com/media/Fh28yu3oxWRlm/giphy.gif?cid=790b7611144358a8700cac91629279e0f75c48894ac0f2ad&rid=giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 300px;
+  text-align: center;
+}
+#pagehead {
+  justify-content: center;
+  display: flex;
+  font-size: 60px;
+  color: limegreen;
+  font-family: Impact, Charcoal, sans-serif;
+}
+/* hero end */
+.main {
+  background-color: black;
+}
+
+.wrappers {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+.zco {
+  width: 80%;
+  margin: 0 auto;
+}
+.zconame{
+  color:white;
+}
+.cardszco {
+  height: 320px;
+  width: 400px;
+}
+.zcotext {
+  color: white;
+}
+/* FOOTER  */
+.logolames {
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 50px;
+  background-color: white;
+}
+.fa-snapchat-ghost {
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  color: white;
+}
+.copyright {
+  color: black;
+  background-color: white;
+}

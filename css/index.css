@@ -1,0 +1,90 @@
+/*____________________
+________border of page_________
+_____________*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.navbar {
+  list-style: none;
+  justify-content: space-evenly;
+
+  display: flex;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.navbar li {
+  font-size: 50px;
+}
+.navbar a {
+  text-decoration-line: none;
+}
+.a:link,
+a:visited {
+  color: cyan;
+  text-decoration: none;
+}
+/* navbar end */
+/* hero */
+.main_container {
+  width: 100%;
+  background-color: #8c8c8c;
+}
+.top_Container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://media.giphy.com/media/Y4tJNMmKeoZcLURwKZ/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 700px;
+  text-align: center;
+}
+#pagehead {
+  justify-content: center;
+  display: flex;
+  font-size: 60px;
+  color: White;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+/* hero end */
+
+.agreatcity_container {
+  width: 90%;
+  margin-left: 5%;
+}
+/* FOOTER  */
+footer {
+  background-color: #8c8c8c;
+}
+.logolames {
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 50px;
+}
+.fa-snapchat-ghost {
+  color: cyan;
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  color: white;
+}
+.copyright {
+  background-color: #8c8c8c;
+}

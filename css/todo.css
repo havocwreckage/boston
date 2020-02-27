@@ -1,0 +1,116 @@
+/*____________________
+________border of page_________
+_____________*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.navbar {
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.navbar li {
+  font-size: 50px;
+}
+.navbar a {
+  text-decoration-line: none;
+}
+.a:link,
+a:visited {
+  color: cyan;
+  text-decoration: none;
+}
+/* navbar end */
+/* hero */
+.top_Container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.crazycrow.com/site/wp-content/uploads/2017/04/MCV-fifes-and-drums-Concord-Patriots-Day-Parade-01-850x567.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 600px;
+  text-align: center;
+}
+#pagehead {
+  justify-content: center;
+  display: flex;
+  font-size: 60px;
+  color: White;
+  font-family: Impact, Charcoal, sans-serif;
+}
+/*end of hero  */
+.agreatcity_container {
+  width: 90%;
+  justify-content: center;
+  display: flex;
+  font-family: Apple Chancery, cursive;
+}
+.patriots_parade {
+  width: 100%;
+  margin-left: 0%;
+  font-family: Apple Chancery, cursive;
+}
+.aquarium {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://boston.cbslocal.com/wp-content/uploads/sites/3859903/2014/04/aquarium.jpg?w=625);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 600px;
+  text-align: center;
+}
+section {
+  width: 100%;
+  background-color: white;
+}
+section h3 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font-family: Bradley Hand, cursive;
+  background-color: white;
+}
+section p {
+  width: 100%;
+  font-family: Bradley Hand, cursive;
+  background-color: white;
+}
+/* FOOTER  */
+.logolames {
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 50px;
+  background-color: black;
+}
+.fa-snapchat-ghost {
+  color: cyan;
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  color: white;
+}
+.copyright {
+  background-color: black;
+  color: white;
+}
